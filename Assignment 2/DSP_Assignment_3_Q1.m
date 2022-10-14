@@ -85,6 +85,9 @@ subplot(2,1,2);
 plot(w,angle(y_5))
 title("Q1.e) Angle graph")
 
+figure;
+plot(w, angle(y_5))
+title("Backchodi chalti rehna chahiye")
 % COMMENT ON BEHAVIOUR %
 % Phase plots are linear in nature, however phase shifted about origin 
 % => Negatively Symmetric
