@@ -73,21 +73,21 @@ title("Q1.d) Angle graph")
 % Phase Plots are linear in nature, => x(n) is symmetric
 
 % 5th part
-n_5=0:1:7;
-y_5=DTFT([4 3 2 1 -1 -2 -3 -4],n_5,w);
+% n_5=0:1:7;
+% y_5=DTFT([4 3 2 1 -1 -2 -3 -4],n_5,w);
 
-figure
-subplot(2,1,1);
-plot(w,abs(y_5))
-title("Q1.e) Magnitude graph")
+% figure
+% subplot(2,1,1);
+% plot(w,abs(y_5))
+% title("Q1.e) Magnitude graph")
 
-subplot(2,1,2);
-plot(w,angle(y_5))
-title("Q1.e) Angle graph")
+% subplot(2,1,2);
+% plot(w,angle(y_5))
+% title("Q1.e) Angle graph")
 
-figure;
-plot(w, angle(y_5))
-title("Backchodi chalti rehna chahiye")
+% figure;
+% plot(w, angle(y_5))
+% title("Backchodi chalti rehna chahiye")
 % COMMENT ON BEHAVIOUR %
 % Phase plots are linear in nature, however phase shifted about origin 
 % => Negatively Symmetric
