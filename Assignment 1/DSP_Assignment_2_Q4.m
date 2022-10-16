@@ -13,5 +13,5 @@ sum2=0;
 for i=1:length(rn)
     sum2=sum2+ (rn(i)-M)^2;
 end
-V=sum2/length(rn); %The Variance
-fprintf("The Random Signal has Mean as "+ M + " and Variance as "+ V);
+% V=sum2/length(rn); %The Variance
+% fprintf("The Random Signal has Mean as "+ M + " and Variance as "+ V);
